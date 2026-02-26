@@ -17,7 +17,9 @@ class Conta:
 
 def main():
     c1 = Conta(1, 1, "Joao", 0)
+    c1.gerar_extrato()
     c1.depositar(300)
+    c1.gerar_extrato()
     c1.sacar(50)
     c1.gerar_extrato()
 
